@@ -1,0 +1,67 @@
+/************************************************************************************/
+/* COLOUR PALETTE */
+/************************************************************************************/
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+
+  --grey-01: #E4E4E4;
+
+  --light-primary-01: #EEF9FB;
+  --light-primary-02: #DEF4F7;
+  --light-primary-03: #CAEBF3;
+  --light-primary-04: #B0E2EE;
+  --light-primary-05: #96D8E8;
+  --light-primary-06: #7CCFE3;
+
+  --dark-primary-01: #F2F7F8;
+  --dark-primary-02: #CADEE2;
+  --dark-primary-03: #4A7C88;
+  --dark-primary-04: #31525A;
+  --dark-primary-05: #18292D;
+
+  --secondary-01: #FFFAEC;
+  --secondary-02: #FFEFC2;
+  --secondary-03: #FFDE85;
+  --secondary-04: #FFD35C;
+  --secondary-05: #FFC31F;
+  --secondary-06: #FFBE0A;
+
+  --accent-02: #F5F5F5;
+  --accent-03: #E4E4E4;
+  --accent-04: #D6D6D6;
+  --accent-05: #141414;
+  --accent-06: #020202;
+
+  --loader-border-top: #FFC31F;
+}
+
+/**** BACKGROUND COLOUR ***************/
+.hero-container-bg-color {
+  background-color: var(--light-primary-03);
+}
+
+.bg-color-light-primary-01 {
+  background-color: var(--light-primary-01);
+}
+
+.bg-color-secondary-02 {
+  background-color: var(--secondary-02);
+}
+
+.bg-color-accent-02 {
+  background-color: var(--accent-02);
+}
+
+.bg-color-dark-primary-05 {
+  background-color: var(--dark-primary-05);
+}
+
+blockquote p::before,
+blockquote p::after {
+   color: var(--dark-primary-03);
+}
+/********** END OF BACKGROUND COLOUR ****/
+
+
+
